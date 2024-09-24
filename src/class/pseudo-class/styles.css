@@ -1,0 +1,95 @@
+body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background: linear-gradient(184deg, rgba(255,99,0,1) 0%, rgba(255,255,255,1) 47%, rgba(0,255,209,1) 100%);
+}
+
+a {
+    color: blueviolet;
+}
+
+div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+/* hover */
+
+button:hover {
+    background-color: aqua;
+    border: 1px solid aquamarine;
+    color: white;
+}
+
+/* focus */
+
+button:focus {
+    outline: 4px solid blue;
+}
+
+/* active */
+
+button:active {
+    background-color: red;
+}
+
+/* disable */
+
+button:disabled {
+    background-color: gray;
+}
+
+/* visited */
+
+a:visited {
+    color: forestgreen;
+    text-decoration-color: hotpink;
+  }
+
+  /* todos menos esse = not  */
+p:not(.p) {
+    color: red;
+}
+
+/* nth - impares  */
+
+div :nth-child(even) {
+    background-color: chartreuse;
+
+}
+
+/* nth - pares  */
+
+div :nth-child(odd) {
+    background-color: coral;
+}
+
+/* first-child - primeiro filho  */
+
+div :first-child {
+    background-color: aqua;
+}
+
+/* last-child - ultimo filho  */
+
+div :last-child {
+    background-color: brown;
+}
+
+
+
